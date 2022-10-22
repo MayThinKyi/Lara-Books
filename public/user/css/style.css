@@ -1,0 +1,46 @@
+body {
+    font-family: "Pyidaungsu";
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #fafafa;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: inherit;
+}
+header .col-lg-3 img {
+    width: 70px;
+}
+iframe {
+    height: 500px;
+}
+.categoryImage {
+    width: 200px;
+    height: 150px;
+}
+.subjectImage {
+    width: 110px;
+    height: 150px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 450px) {
+    header h3 {
+        font-size: 18px;
+    }
+    header h5 {
+        font-size: 15px;
+    }
+    header .col-lg-3 img {
+        width: 45px;
+    }
+
+    .categoryImage {
+        width: 130px;
+        height: 90px;
+    }
+
+}
